@@ -1,4 +1,4 @@
-# go-reminders minimal container definition
+#go-reminders minimal container definition
 #
 # Copyright 2015-2019 VMware, Inc. All Rights Reserved.
 # Author: Tom Hite (thite@vmware.com)
@@ -11,7 +11,7 @@ FROM scratch
 MAINTAINER Tom Hite <thite@vmware.com>
 
 # Add the microservice
-ADD /go/src/github.com/tkrausjr/go-reminders/cmd/go-reminders /go-reminders
+# ADD /go/src/github.com/tkrausjr/go-reminders/cmd/go-reminders /go-reminders
 
 # Add the content (html and templates)
 ADD html /html

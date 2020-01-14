@@ -11,7 +11,7 @@ FROM scratch
 MAINTAINER Tom Hite <thite@vmware.com>
 
 # Add the microservice
-ADD go-reminders /go-reminders
+ADD  /go/src/github.com/vmware/go-reminders/cmd/go-reminders /go-reminders
 
 # Add the content (html and templates)
 ADD html /html

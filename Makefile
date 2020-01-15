@@ -5,9 +5,9 @@
 #
 
 # Check that the container name that gets build is defined.
-ifndef CONTAINER
-$(error CONTAINER, which specifies the docker container name to build, is not set)
-endif
+# ifndef CONTAINER
+# $(error CONTAINER, which specifies the docker container name to build, is not set)
+# endif
 
 default: cmd/go-reminders/go-reminders cmd/go-reminders/go-reminders-darwin
 

@@ -5,3 +5,7 @@ resources:
 patches:
 - service.yaml
 - deployment.yaml
+images:
+- name: docker-registry-repo
+  newName: harbor.tpmlab.vmware.com/library/go-reminders
+  newTag: v8

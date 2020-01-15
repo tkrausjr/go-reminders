@@ -8,7 +8,7 @@
 
 # Start from scratch
 FROM scratch
-MAINTAINER Tom Hite <thite@vmware.com>
+MAINTAINER Thomas Kraus <tkrausjr@gmail.com>
 
 # Add the microservice
 ADD cmd/go-reminders/go-reminders /go-reminders

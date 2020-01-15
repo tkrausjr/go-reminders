@@ -21,7 +21,7 @@ const (
 	portUsage          = "port to use for connections"
 	hostDefault        = "localhost"
 	hostUsage          = "database (host) address"
-	adminDefault       = "vmware"
+	adminDefault       = "root"
 	adminUsage         = "username for authentication -- note: db user must have power to create databases)"
 	passwordDefault    = "VMware1!"
 	passwordUsage      = "password for authentication"

@@ -3,4 +3,5 @@ kind: Service
 metadata:
   name: go-reminders
 spec:
-  type: ClusterIP
+  type: LoadBalancer
+

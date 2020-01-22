@@ -17,5 +17,6 @@ func TestGoReminders(t *testing.T) {
 
 	Init()
 	t.Log("Package app tested ok.")
-	t.Error("Expected Success or Fail, got ")
+	// Uncomment out below to simulate failed Golang test scenario
+	// t.Error("Expected Success or Fail, got ")
 }

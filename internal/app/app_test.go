@@ -15,6 +15,7 @@ func TestGoReminders(t *testing.T) {
 		return
 	}
 
-	//Init()
-	//t.Log("Package app tested ok.")
+	Init()
+	t.Log("Package app tested ok.")
+	t.Error("Expected Success or Fail, got ")
 }

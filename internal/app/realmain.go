@@ -77,7 +77,7 @@ func RealMain() int {
 	}
 
 	// setup JSON request handlers
-	api := rest.Head()
+	api := rest.NewApi()
 	api.Use(rest.DefaultDevStack...)
 	router, err := rest.MakeRouter(
 		// stats

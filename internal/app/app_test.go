@@ -6,6 +6,7 @@
 package app
 
 import (
+	"net/url"
 	"testing"
 )
 
@@ -16,7 +17,18 @@ func TestGoReminders(t *testing.T) {
 	}
 
 	Init()
-	t.Log("Package app tested ok.")
-	// Uncomment out below to simulate failed Golang test scenario
-	// t.Error("Expected Success or Fail, got ")
+	//t.Log("Package app tested ok.")
+	//t.Error("Expected Success or Fail, got ")
+
+	// Test for URL correctness returned from
+	// getUrlRoot() function in realmain.go
+	testVHost := getUrlRoot()
+	t.Log("Returned from function is ", testVHost)
+	u, err := url.ParseRequestURI(testVHost)
+	if err != nil {
+		t.Error(err)
+	} else {
+		t.Log("URL is good", u)
+	}
+
 }

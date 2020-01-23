@@ -41,7 +41,7 @@ const (
 	cfgSrcExtraUsage   = "Extra info for config source, e.g., execute URL for vRO"
 	APIBaseUrlDefault  = "http://127.0.0.1:8080"
 	APIBaseUrlUsage    = "set the base url for internal REST api calls"
-	vHostDefault       = ""
+	vHostDefault       = "http://localhost" // Default is http://localhost
 	vHostUsage         = "set the base url for vHost setups like Kubernetes ingress, e.g. http://myhost.corp.local/go-reminders"
 )
 

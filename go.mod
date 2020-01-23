@@ -12,3 +12,5 @@ require (
 	github.com/ugorji/go v1.1.1 // indirect
 	golang.org/x/net v0.0.0-20190213061140-3a22650c66bd
 )
+
+go 1.13
